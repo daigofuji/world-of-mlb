@@ -1,0 +1,12 @@
+name : World of MLB
+description : 2018 MLB Roster by birth countries. Baseball Hack Day 2019 submission
+keyword : 
+url : http://daigofuji.github.io/world-of-mlb/
+email : daigo@daigofujiwara.com
+twitter : DaigoFuji
+github : DaigoFuji
+author : Daigo Fujiwara
+year : 2019
+markdown : kramdown
+exclude :
+  - node_modules
