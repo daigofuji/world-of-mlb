@@ -37,3 +37,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+table thead th {
+  padding: .2rem .625rem .3rem;
+  line-height: 1;
+}
+table th, table td {
+  font-size: 12px;
+}
+
+.flag {
+  display: inline-block;
+  width: 24px; 
+  margin: 0 2px;
+}
