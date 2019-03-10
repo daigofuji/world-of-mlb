@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-table thead th {
-  padding: .2rem .625rem .3rem;
+table thead th, table.dataTable thead th {
+  padding: 0;
   line-height: 1;
 }
 table th, table td {
@@ -50,3 +50,22 @@ table th, table td {
   width: 24px; 
   margin: 0 2px;
 }
+
+      table thead th.rotate {
+        /* Something you can count on */
+        height: 150px;
+        white-space: nowrap;
+      }
+
+      th.rotate > div {
+        margin-top: 90px;
+        width: 30px;
+        transform: 
+          /* Magic Numbers */
+          translate(-10px, 5px)
+          /* 45 is really 360 - 45 */
+          rotate(295deg);
+      }
+      th.rotate > div > span {
+        padding: 5px 0;
+      }
