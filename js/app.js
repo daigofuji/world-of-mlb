@@ -22,10 +22,8 @@ $(document).ready(function(){
     $('#roster').empty();
 
     players[team].forEach(function(player, index) {
-      console.log(player)
 
       var $pl = $('<a class="player">').attr('data-tooltip', '').attr('href', player.url).attr('title', player.Name + ' (' + abbrToName(player.COUNTRY) + ') played ' + player.G + ' games with ' + player.WAR + ' WAR').append($('<img>').attr('src', 'img/flags/'+player.COUNTRY.toLowerCase()+'.png'));
-
 
       $('#roster').append($pl);
     });
