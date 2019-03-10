@@ -51,21 +51,26 @@ table th, table td {
   margin: 0 2px;
 }
 
-      table thead th.rotate {
-        /* Something you can count on */
-        height: 150px;
-        white-space: nowrap;
-      }
+table thead th.rotate {
+  /* Something you can count on */
+  height: 150px;
+  white-space: nowrap;
+}
 
-      th.rotate > div {
-        margin-top: 90px;
-        width: 30px;
-        transform: 
-          /* Magic Numbers */
-          translate(-10px, 5px)
-          /* 45 is really 360 - 45 */
-          rotate(295deg);
-      }
-      th.rotate > div > span {
-        padding: 5px 0;
-      }
+th.rotate > div {
+  margin-top: 90px;
+  width: 30px;
+  transform: 
+    /* Magic Numbers */
+    translate(-10px, 5px)
+    /* 45 is really 360 - 45 */
+    rotate(295deg);
+}
+th.rotate > div > span {
+  padding: 5px 0;
+}
+
+#roster .player {
+  display: inline-block;
+  margin: 4px;
+}
